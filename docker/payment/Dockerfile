@@ -1,4 +1,4 @@
-FROM golang:1.7
+FROM ppc64le/golang:1.7
 
 RUN mkdir /app
 COPY . /go/src/github.com/microservices-demo/payment/
